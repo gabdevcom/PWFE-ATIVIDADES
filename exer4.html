@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exercicio 4 </title>
+    <style>
+        body{
+           background-color: lightgray;
+            
+        }
+
+        img#bank{
+            width: 400px;
+            height: auto;
+     
+        }
+        .label{
+            display: flex;
+        }
+
+        h1{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: darkolivegreen;      
+        }
+    </style>
+</head>
+<body>
+<h1> Programa Caixa Eletrônico </h1>
+
+<br> 
+<div> 
+<label> Valor do saque R$: 
+<input type="number" id="valor">     
+</label>    
+<br> <br>
+<button onclick="saqueNota()"> Exibir Notas </button>
+<!--<input type="button" id="botao" value="Exibir Notas de saque">  -->
+<p id="Notas"> </p>
+</div>
+
+<div> 
+<img id="bank" src="IMG/Bank space 001.png"> 
+</div>
+
+<script src="JS/ex4.js"> </script>
+</body>
+</html> 

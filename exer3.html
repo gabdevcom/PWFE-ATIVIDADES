@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exercicio 3 </title>
+    <style> 
+    body{
+        background-color: lightskyblue;
+        align-items: center;
+    }
+
+    h1#titulo{
+        color: red;
+        font-style: italic;
+         border-style: solid;
+         border-color: red;
+        border: 12px;
+}
+
+    p#mostrar{
+        font-size: large;
+        color: rgb(154, 0, 0);
+    }
+
+    .loja{
+        font-size: large;
+    }
+
+    button{
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+    width: 200px;   
+
+    }
+    </style>
+
+</head>
+<body>
+    <center>
+    <h1 id="titulo"> Fármacia JS</h1>
+
+    <div class="loja"> 
+        <label> Medicamento:
+     <input type="text" name="produto" id="produto" size="15" value="">
+
+        </label>
+
+        <br>
+        <br>
+
+        <label> Preço R$: 
+            <input type="Number" name="produto" id="preco" size="15">
+
+        </label>
+
+        <br>
+        <br>
+      <button onclick="promocao()"> Mostrar promoção   </button>
+        
+    <p id="mostrar">  </p>
+
+
+    </div>
+</center>
+
+    <script src="JS/ex3.js"> </script>
+</body>
+</html>
